@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.change-scrollbar::-webkit-scrollbar {
+    height: 8px;
+}
+
+.change-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.change-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.change-scrollbar::-webkit-scrollbar-button:start, ::-webkit-scrollbar-button:end {
+    display: none;
+}
+
+.change-scrollbar::-webkit-scrollbar-track{
+    background: transparent;
+}

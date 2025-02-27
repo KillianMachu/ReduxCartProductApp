@@ -9,9 +9,8 @@ import Wishlist from "./components/Wishlist";
 const App = () => {
   return (
     <Router>
-      {/* <img src="/public/background.jpg" alt="background" className="absolute" /> */}
-      <div className="min-w-screen min-h-screen bg-[url(/public/background2.webp)] bg-cover backdrop-blur-3xl bg-fixed font-content">
-        <div className="min-w-screen min-h-screen flex flex-col bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 border border-gray-100 p-4">
+      <div className="min-w-screen min-h-screen bg-[url(/public/background3.jpg)] bg-cover backdrop-blur-3xl bg-fixed font-content">
+        <div className="min-w-screen min-h-screen flex flex-col bg-gray-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-100 p-4">
           <nav className="flex justify-center bg-white rounded-full bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-40 border border-gray-100 mx-auto w-fit px-4 text-white font-semibold gap-2">
             <Link className="m-1 rounded-full hover:bg-gray-700 hover:bg-opacity-30 p-2 transition duration-300" to="/"><HomeIcon className="h-8 w-8" /></Link>
             <Link className="m-1 rounded-full hover:bg-gray-700 hover:bg-opacity-30 p-2 transition duration-300" to="/wishlist"><HeartIcon className="h-8 w-8" /></Link>
